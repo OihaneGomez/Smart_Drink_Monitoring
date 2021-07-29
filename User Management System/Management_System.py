@@ -7,14 +7,14 @@ It is designed to work with the Office Hydration Monitoring (OHM) Dataset
 (https://zenodo.org/record/4681206).
 It includes several options to customize the system:
 
-- Name: Defined preferences will be associated to each user name
+- Name: Defined preferences will be associated with each user name
 - Desired level of participation in the proposed interactive scenario:
 Three levels of involvement are defined: None, Low, Intermediate or High. This
 selection determines the number of times the IoT device may ask the user
 about a specific activity performed.
-- Classification mode: This is specific for the OHM Dataset. It allows to define 
+- Classification mode: This is specific for the OHM Dataset. It allows defining 
 whether the user wants the system to discern between the type of
-container used, Bottle or Cup/Mug or not.
+container used: Bottle or Cup/Mug or not.
 
 
 When cliking "Update preferences" button, those are saved in "preferences.json"
@@ -215,7 +215,7 @@ def Quit():
 #-----------------------------
 
 
-#Set windows interface configuration and inizialize Qt
+#Set window interface configuration and inizialize Qt
 pg.setConfigOption('background','w')
 pg.setConfigOption('background',QtGui.QColor(231,231,231))
 app = QtGui.QApplication([])

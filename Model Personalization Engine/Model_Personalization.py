@@ -7,11 +7,11 @@ Its interface allows them to easily and visually provide examples of their
 own movement patterns.
 
 It was designed to work with M5Stick-C device, capturing Accelerometer, 
-Gyroscope and Pitch,Roll and Yaw signals. Only AccX, AccY and AccZ signals 
+Gyroscope and Pitch, Roll and Yaw signals. Only AccX, AccY and AccZ signals 
 will be displayed through the interfacte.
 
-IoT devices are connected via Blueetooth. Thus, the MAC address 
-of the device is needed. This device has to be accesible when running this 
+IoT devices are connected via Bluetooth. Thus, the MAC address 
+of the device is needed. This device has to be accessible when running this 
 application. 
 
 """
