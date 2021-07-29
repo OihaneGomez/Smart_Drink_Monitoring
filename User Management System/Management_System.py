@@ -72,9 +72,7 @@ palette.setColor(QtGui.QPalette.HighlightedText, QtCore.Qt.black)
 
 
 
-#---------------------------------------
-#-------- Funtion definitions ----------
-#---------------------------------------
+
 
 
 """
@@ -203,7 +201,7 @@ def clicked():
          json.dump(saveDict, fp)
 
 """
-Quit
+Quit application. Close window
 """
 #Quit button
 def Quit():
