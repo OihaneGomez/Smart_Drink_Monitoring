@@ -12,7 +12,7 @@ will be displayed through the interfacte.
 
 IoT devices are connected via Bluetooth. Thus, the MAC address 
 of the device is needed. This device has to be accessible when running this 
-application. 
+application. Otherwise it wont load the interface
 
 """
 
@@ -30,7 +30,6 @@ import sys
 from bluepy.btle import *
 import struct
 from functools import reduce
-import struct
 from PyQt5 import QtWidgets
 from pyqtgraph import PlotWidget, plot
 from PyQt5.QtWidgets import QMainWindow, QLabel, QGridLayout, QWidget, QMenu, QSlider
@@ -43,7 +42,7 @@ import json
 
 
 # -------------------- Device MAC ADDRESS
-device_mac = "50:02:91:88:92:BE"
+device_mac = "" #Add the mac adress of the device you want to connect
 # --------------------
 
 
